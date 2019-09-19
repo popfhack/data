@@ -1,70 +1,72 @@
 {
-  vendors: [{
-      vendor_type: "Contract/One-time",
-      name: "Vendor_1",
-      email: "vendor@gamil.com",
-      phone: "+9715689383838",
-      fax: "+9715689383838",
-      address: "JLT",
-      id: 0,
-      vendor_contact_details: {
-        name: "Vendor_1",
-        email: "vendor@gamil.com",
-        phone: "+9715689383838"
+  "vendors": [
+    {
+      "vendor_type": "Contract/One-time",
+      "name": "Vendor_1",
+      "email": "vendor@gamil.com",
+      "phone": "+9715689383838",
+      "fax": "+9715689383838",
+      "address": "JLT",
+      "id": 0,
+      "vendor_contact_details": {
+        "name": "Vendor_1",
+        "email": "vendor@gamil.com",
+        "phone": "+9715689383838"
       },
-      vendor_finance_contact_details: {
-        name: "Vendor_1",
-        email: "vendor@gamil.com",
-        phone: "+9715689383838"
+      "vendor_finance_contact_details": {
+        "name": "Vendor_1",
+        "email": "vendor@gamil.com",
+        "phone": "+9715689383838"
       },
-      trade_license_number: "23334332",
-      trade_license_document: "file",
-      vat_number: "123455",
-      vat_certificate: "file",
-      certificate_goodstanding: "file",
-      contract: {
-        payment_terms: "string",
-        term: {
-          start: "datetime",
-          end: "datetime"
+      "trade_license_number": "23334332",
+      "trade_license_document": "file",
+      "vat_number": "123455",
+      "vat_certificate": "file",
+      "certificate_goodstanding": "file",
+      "contract": {
+        "payment_terms": "string",
+        "term": {
+          "start": "datetime",
+          "end": "datetime"
         },
-        cancellable: false,
-        autoRenewable: true,
-        terminationNotificationPeriod: "20"
+        "cancellable": false,
+        "autoRenewable": true,
+        "terminationNotificationPeriod": "20"
       }
     },
     {
-      vendor_type: "Contract/One-time",
-      name: "Vendor_2",
-      email: "vendor_2@gamil.com",
-      phone: "+9715689383838",
-      fax: "+9715689383838",
-      address: "JLT",
-      id: 1,
-      vendor_contact_details: {
-        name: "Vendor_2",
-        email: "vendor@gamil.com",
-        phone: "+9715689383838"
+      "vendor_type": "Contract/One-time",
+      "name": "Vendor_2",
+      "email": "vendor_2@gamil.com",
+      "phone": "+9715689383838",
+      "fax": "+9715689383838",
+      "address": "JLT",
+      "id": 1,
+      "vendor_contact_details": {
+        "name": "Vendor_2",
+        "email": "vendor@gamil.com",
+        "phone": "+9715689383838"
       },
-      vendor_finance_contact_details: {
-        name: "Vendor_2",
-        email: "vendor@gamil.com",
-        phone: "+9715689383838"
+      "vendor_finance_contact_details": {
+        "name": "Vendor_2",
+        "email": "vendor@gamil.com",
+        "phone": "+9715689383838"
       },
-      trade_license_number: "23334332",
-      trade_license_document: "file",
-      vat_number: "123455",
-      vat_certificate: "file",
-      certificate_goodstanding: "file",
-      contract: {
-        payment_terms: "string",
-        term: {
-          start: "datetime",
-          end: "datetime"
+      "trade_license_number": "23334332",
+      "trade_license_document": "file",
+      "vat_number": "123455",
+      "vat_certificate": "file",
+      "certificate_goodstanding": "file",
+      "contract": {
+        "payment_terms": "string",
+        "term": {
+          "start": "datetime",
+          "end": "datetime"
         },
-        cancellable: false,
-        autoRenewable: true,
-        terminationNotificationPeriod: "20"
+        "cancellable": false,
+        "autoRenewable": true,
+        "terminationNotificationPeriod": "20"
       }
-    }]
- }
+    }
+  ]
+}
