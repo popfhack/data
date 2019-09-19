@@ -3,6 +3,7 @@
     {
       "id": 1,
       "vendor_type": "contract",
+      "status": "Approved",
       "name": "Akamai Technologies",
       "email": "sales@akamai.com",
       "phone": "+971 (0)56 834 8230",
@@ -37,6 +38,7 @@
     {
       "id": 2,
       "vendor_type": "contract",
+      "status": "legal_accepted",
       "name": "Google",
       "email": "sales@google.com",
       "phone": "1-646-257-4500",
