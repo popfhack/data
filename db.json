@@ -1,71 +1,71 @@
 {
   "vendors": [
     {
-      "vendor_type": "Contract/One-time",
-      "name": "Vendor_1",
-      "email": "vendor@gamil.com",
-      "phone": "+9715689383838",
-      "fax": "+9715689383838",
-      "address": "JLT",
-      "id": 0,
+      "id": 1,
+      "vendor_type": "contract",
+      "name": "Akamai Technologies",
+      "email": "sales@akamai.com",
+      "phone": "+971 (0)56 834 8230",
+      "fax": "+971 (0)56 834 8230",
+      "address": "Al Habtoor Business Tower, Level 21, Dubai Marina, PO Box 5002206, Dubai, UAE",
       "vendor_contact_details": {
-        "name": "Vendor_1",
-        "email": "vendor@gamil.com",
-        "phone": "+9715689383838"
+        "name": "John Doe",
+        "email": "john.doe@akamai.com",
+        "phone": "+971 (0)56 834 8230"
       },
       "vendor_finance_contact_details": {
-        "name": "Vendor_1",
-        "email": "vendor@gamil.com",
-        "phone": "+9715689383838"
+        "name": "Jane Adams",
+        "email": "jane.adams@akamai.com",
+        "phone": "+971 (0)56 834 8230"
       },
       "trade_license_number": "23334332",
-      "trade_license_document": "file",
+      "trade_license_document": null,
       "vat_number": "123455",
-      "vat_certificate": "file",
-      "certificate_goodstanding": "file",
+      "vat_certificate": null,
+      "certificate_goodstanding": null,
       "contract": {
-        "payment_terms": "string",
+        "payment_terms": "Insert payment terms here",
         "term": {
-          "start": "datetime",
-          "end": "datetime"
+          "start": 1568890598769,
+          "end": 1568890598769
         },
         "cancellable": false,
         "autoRenewable": true,
-        "terminationNotificationPeriod": "20"
+        "terminationNotificationPeriod": 60
       }
     },
     {
-      "vendor_type": "Contract/One-time",
-      "name": "Vendor_2",
-      "email": "vendor_2@gamil.com",
-      "phone": "+9715689383838",
-      "fax": "+9715689383838",
-      "address": "JLT",
-      "id": 1,
+      "id": 2,
+      "vendor_type": "contract",
+      "name": "Google",
+      "email": "sales@google.com",
+      "phone": "1-646-257-4500",
+      "fax": "1-646-257-4500",
+      "address": "Dubai Internet City, P. O. Box 500249",
       "vendor_contact_details": {
-        "name": "Vendor_2",
-        "email": "vendor@gamil.com",
-        "phone": "+9715689383838"
+        "name": "Amy Smith",
+        "email": "amy.smith@google.com",
+        "phone": "1-646-257-4500"
       },
       "vendor_finance_contact_details": {
-        "name": "Vendor_2",
-        "email": "vendor@gamil.com",
-        "phone": "+9715689383838"
+        "name": "Brett Wilkins",
+        "email": "brett.wilkins@google.com",
+        "phone": "1-646-257-4500"
       },
-      "trade_license_number": "23334332",
-      "trade_license_document": "file",
-      "vat_number": "123455",
-      "vat_certificate": "file",
-      "certificate_goodstanding": "file",
+      "trade_license_number": "1234567",
+      "trade_license_document": null,
+      "vat_number": "987654",
+      "vat_certificate": null,
+      "certificate_goodstanding": null,
       "contract": {
-        "payment_terms": "string",
+        "payment_terms": "Insert payment terms here",
         "term": {
-          "start": "datetime",
-          "end": "datetime"
+          "start": 1568890598769,
+          "end": 1568890598769
         },
         "cancellable": false,
         "autoRenewable": true,
-        "terminationNotificationPeriod": "20"
+        "terminationNotificationPeriod": 60
       }
     }
   ]
